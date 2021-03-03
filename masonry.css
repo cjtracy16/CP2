@@ -1,0 +1,144 @@
+* {
+    padding: 0px;
+}
+
+.page {
+    background-color: #bfd1df;
+    border-radius: 5px;
+}
+
+.footer {
+    align-self: center;
+    background-color: #bfd1df;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    color: #EAF4F4;
+    text-decoration: none;
+}
+
+.footer>a {
+    align-self: center;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    background-color: transparent;
+    margin: 0 auto;
+    justify-content: center;
+    color: #EAF4F4;
+}
+
+.ml {
+    padding-bottom: 10px;
+}
+
+
+/* COLUMN CHANGES */
+
+.ml {
+    column-count: 1;
+    column-gap: 0;
+}
+
+@media (min-width: 1000px) {
+    .ml {
+        column-count: 2; !important
+    }
+}
+
+@media (min-width: 1400px) {
+    .ml {
+        column-count: 3; !important
+    }
+}
+
+
+/* FORMATTING */
+
+.ml-pnl {
+    break-inside: avoid;
+    padding: 5px;
+    background-color: #9ea3a9;
+    padding: 0px;
+    border-radius: 10px;
+    margin: 10px 5px 5px 10px;
+}
+
+.ml-pnl:hover {
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+
+.ml-pnl_content {
+    padding: 0px 10px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #9ea3a9;
+    color: #EAF4F4;
+}
+
+.ml-pnl_content-img {
+    max-width: 100%;
+    padding: 10;
+    background-color: #9ea3a9;
+    border-radius: 10px 10px 0px 0px;
+}
+.ml-pnl-content-img > img {
+    /* max-width: 100%; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
+}
+.intro {
+    font-weight: bold;
+    font-size: 3em;
+    display: flex;
+    padding-bottom: 5px;
+    background-color: transparent;
+    color: #EAF4F4;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #bfd1df;
+    border-radius: 5px;
+}
+
+.description {
+    font-size: 1.25em;
+    display: flex;
+    background-color: transparent;
+    color: #EAF4F4;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #bfd1df;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+}
+
+footer>a {
+    display: flex;
+    background-color: transparent;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.header {
+    background-color: #9ea3a9;
+    border-radius: 5px;
+}
+
+
+/* Color Mapping */
+
+
+/* $deep-gray = 28282d
+ * $cool-gray = 2c2c32
+ * $stone-gray = 2d2d2c
+ * $gray = 252526
+ * $slate-gray = 1e1e1e
+ * $light-gray = 595a5b
+/*# sourceMappingURL=masonry.css.map */
